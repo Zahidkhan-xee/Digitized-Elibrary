@@ -1,0 +1,576 @@
+<!-- Oh Allah Guide Me to complete the project -->
+<!DOCTYPE html >
+<html>
+<head> 
+	             	<title>Digitized Students Library ASC </title>
+	             	<meta charset="utf-8">
+                 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 			 	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	 				<!-- Tag to tell robots not to index the content of a page -->
+					<meta name="robots" content="noindex, nofollow">
+	 			 <!-- CSS -->
+			      <link rel="stylesheet" href=" ../bootstrap 3/css/bootstrap.css"> 
+                  <link rel="stylesheet" href=" ../bootstrap 3/fonts/font.css"> 
+                    <link rel="icon" href="icons/icon.png">
+                    <link rel="stylesheet" type="text/css" href="css.css">
+             <!--Javascript is not running or not supported -->   
+             		 <noscript>
+                    		JavaScript is required to work properly. Plugin JS in your system to get ahead."
+              		</noscript>
+              		         <!--Jquery -->
+
+
+ 
+</head>
+<body id="top">
+          
+				     <nav class=" container-fluid blog-masthead" style="background-color:  #428bca; "  >            
+                     <ul class="nav  nav-tabs" >
+                        <li class="nav-link navbar-brand" ><a  href="#">Amar Singh College</a> </li>
+                        <li class="visible-xs" style="float: right;"><a href="#" type="button" data-toggle="collapse" data-target="#mobile-nav" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-align-justify"></span></a> </li>
+                         <li class="nav-link hidden-xs"><a href="../library/index.html"> Library </a></li>
+							           <li class="nav-link active hidden-xs"><a href="#"> E-Library</a></li> 
+      							       <li class="nav-link hidden-xs" ><a href="../article/article.html">Articles.</a></li> 	 
+						    	  	   <!--This is for the Advanced settings -->
+      						 	      <li class="nav-link navbar-right hidden-xs" ><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span> Advanced </a>
+      						 	  		<ul class="dropdown-menu" >
+      						 	  			<li class="dropdown-header" style="font-size: 15px; "  align="center">Accounts Management.</li>
+      						 	  			<li><a data-toggle="modal" data-target="#loginmodal1"><span class="glyphicon glyphicon-log-in"></span> Login In</a> </li>
+      						 	  			<li><a href="#" data-toggle="modal" data-target="#signupmodal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      						 	  			<li role="presentation" class="divider"></li>
+      						 	  			<li class="dropdown-header" style="font-size: 15px;"  align="center">User Response.</li>
+      						 	  			<li><a href="#" data-toggle="modal" data-target="#feedback"><span class="glyphicon glyphicon-tag"></span> Feedback</a> </li>
+      						 	  			<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> Rate College.</a></li>
+      						 	  			<li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Message To Principal.</a></li>
+      						 	  		</ul> 
+                          </li> 
+                     </ul>     
+               <!--This is the settings in the small mobile navigation bar -->
+               <div class="hidden-lg hidden-md hidden-sm collapse " id="mobile-nav">
+                  <ul class="nav">
+                      <li class="nav-link" ><a href="#" ><span class="glyphicon glyphicon-home"></span> Home </a></li>
+                      <li class="nav-link" ><a href="../library/index.html" ><span class="glyphicon glyphicon-book"></span> Library </a></li>
+                      <li class="nav-link" ><a href="../article/article.html">Articles.</a></li>    
+                      <li class="nav-link" ><a data-toggle="modal" data-target="#loginmodal1"><span class="glyphicon glyphicon-log-in"></span> Sign In</a> </li>
+                      <li class="nav-link" ><a href="#" data-toggle="modal" data-target="#feedback"><span class="glyphicon glyphicon-tag"></span> Feedback</a> </li>
+                  </ul>
+               </div>
+					 </nav>	
+    					 		<!--Nav Bar closed here -->
+							<!-- Carosals start from her  -->
+       			 <div class="row">
+               		 <div class="col-lg-12 text-center">
+                   		 <div id="carousel-example-generic" class="carousel slide">
+                     	   <!-- Indicators -->
+                     	   <ol class="carousel-indicators hidden-xs">
+                  	          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                     	       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                     	       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      	      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    	    </ol>
+                 	       <!-- Wrapper for slides -->
+                 	       <div class="carousel-inner">
+                    	        <div class="item active">
+                      	        	  <img src="slideimages/1.jpg " alt="College" width="100%" height="40">
+                      	        </div>
+                          	    <div class="item">
+                            	   		<img src="slideimages/2.jpg" alt="E-Library" width="100%" height="40px" >
+                            	</div>
+                            	<div class="item">
+                               			<img src="slideimages/3.jpg" width="100%" height="40px;" >
+                            	</div>
+                            	<div class="item">
+                               			<img src="slideimages/4.jpg" width="100%" height="40px;" >
+                            	</div>
+                        	</div>
+                        <!-- Controls Left and Right -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                         </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a> 
+                </div>
+            </div> 
+        </div>		
+	<!--Closing Of Carosels -->
+	<!--Breadcum used to show the location i.e path(directory ) of the website .. -->
+	<ol class="breadcrumb" style=" text-align: center; ">
+		<li><a href="#">Amar Singh College</a></li>
+		<li><a href="../library/index.html">Library</a></li>
+		<li class="active">E-Library</li>
+	</ol>
+	<!--This is for the panel and its information -->
+            <div class="col-lg-12 container-fluid">
+		<div style="background-colo#!/usr/bin/env r: #f0c282; margin-top: -10px;  background-color: #114155;" >
+		  <h1 class="hidden-xs" align="center" style="color: #f0e1d3; font-size: 70px; font-weight: 700; padding-left: 140px; padding-top: 10%;">Amar Singh College. </h1> 
+		  <hr style="border: 2px solid #ddd; margin-left: 39%; margin-top: -2px;"  width="31%" />
+		<img src="icons/edit.ico"  class="img-responsive col-lg-6" style="padding-left : 25%" >
+  		<h1 class="col-lg-6" style="color: #bfc83e" align="center" ><b>Why To Digitized Library?</b></h1>
+		  <div class="panel-body " style="  color: #826843;  ">
+                                      <h4 style="color: #f0c282">The Electronic Library or the E-Library is designed and maintained by the department of Computer Science specially meant for the students and Professors of the college so they can study and relish the book electronically - read as they go without the hinderance of issuence of books through the library process. The E-Library Contains over more than 500 Electonic Books (PDF)s which are stored on the server. To enjoy the free reading of books you are required to Login using your University Registeration Number and for the College faculity they are required to Sign In Using their IDs.
+                                      </h4>
+	   </div>
+                               <div id="about" class=" about visible-lg container-fluid col-lg-12 text-center">
+                                    <h1  style="color: #FAF0E6 ;">Quotation Of The Day</h1>
+                                    <h2><q style="color: #bcab90  ;">It ain't over till it's over.</q></h2>
+                                    <p style="color: #788585; margin-top: -1%; margin-left: -1%;" > (New York Yankees 1925.) <a target="_blank" href="#">Yogi Berra</a>.</p>
+                            </div>                            <!-- /.container -->
+					              <a href="#categories" class="btn btn-info btn-lg" id="Start">Start Exploring</a>
+										<h3 class="text-right" style="color: #5d3a61;">"Department Of Computer Science. "</h3>
+					     </div role="panel" >
+            </div>
+					<!--Closing Of panels -->
+					<!-- Modal For the Feedback . . -->
+							<div id="feedback" class="modal fade" role="dialog">
+  								<div class="modal-dialog">
+    							<!-- Modal content-->
+    								<div class="modal-content">
+      											<div class="modal-header">
+        										<button type="button" class="close" data-dismiss="modal">&times;</button>
+        										<h4 class="modal-title">Library</h4>
+      								</div>
+      								<div class="modal-body">
+        									<p>Feedback.</p>
+       				<label for="usr">Name:</label>
+					<input type="text" class="form-control" id="usr">
+        				<label for="comment">Comment:</label>
+        									<textarea class="form-control" rows="5" id="comment"></textarea>
+      			</div>
+      	<div class="modal-footer">
+        		<div class="help-block">By submitting you are agree all the <a href="../terms/terms.html">Terms And Conditions...</a> </div>
+         								<button type="submit" class="btn btn-default">Submit</button>
+        								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      								</div>
+    							</div>
+  							</div>	
+						</div>
+						           <!-- Modal For the login page in the Desktop View-->
+								<div id="loginmodal1" class="modal fade" role="dialog">			<!--CHANGE ITS NAME FROM MYMODAL1 TO MYMODAL -->
+  									<div class="modal-dialog">								<!--For only some portioned rectangle -->
+    								<!-- Modal content-->
+	    										<div class="modal-content" >
+      													<div class="modal-header"> 									<!--Heading and the closing button -->
+        													<button type="button" class="close" data-dismiss="modal">&times;</button>
+        													<h3 class="modal-title">Log In To The Amar Singh College.</h3>
+      													</div>
+      												<div class="modal-body">
+        											   <div class="form-group">
+  															<div class="form-group">
+    																<label for="email" ><span class="glyphicon glyphicon-user"></span> Email address</label>
+    																<input type="email"  placeholder="Enter Email Address." class="form-control" id="email">
+  															</div>
+  															<div class="form-group">
+    																<label for="pwd">Password:</label>
+    																<input type="password" minlength="8" autocomplete="off" class="form-control" id="pwd" placeholder="Enter Password.">
+  															</div>
+  															<div class="checkbox"> <label><input type="checkbox"> Remember me</label> </div>
+  															<button type="submit" class="btn btn-default">Submit</button>
+  														    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												       </div>
+      										        </div>
+
+      											<!--Closing Button in footer -->
+      														<div class="modal-footer">
+      														<a href="#"  data-dismiss="modal" data-toggle="modal" data-target="#signupmodal">Not a member? <a href="#">Sign Up</a> </a>
+          													<p align="left">Forgot <a href="#">Password?</a></p>	
+      														</div>
+										    </div>
+  									     </div role="modal dialog">
+							   </div role="model-content"> 
+							         <!--Closing Of Log in Modal Page -- >	
+										<!--Starting of MODAL FOR THE SIGN UP PAGE -->
+								<div id="signupmodal" class="modal fade" role="dialog of sign up">
+  									<div class="modal-dialog">
+    										<!-- Modal content-->
+    								  	 <div class="modal-content">
+      										   <div class="modal-header">
+        										   <button type="button" class="close" data-dismiss="modal">&times;</button>
+        										   <h4 class="modal-title">Sign Up</h4>
+      										   </div>
+      									    <div class="modal-body">
+                        						<div class="form-group">
+                              						<label for="usr">Name:</label>
+                              						<input type="text" class="form-control input-lg" id="username">
+                              						<label for="passwordd">Password:</label>
+                              						<input type="password" class="form-control input-sm" id="pwd">
+                              						<label for="passwordd">Retype Password:</label>
+                              						<input type="password" class="form-control input-sm" id="pwd2">
+                              						<label for="phone">Phone Number:</label>
+                              						<input type="phone" class="form-control" id="phone">
+                              						<label for="sex">Sex:</label>
+                              						<label class="radio-inline"><input type="radio" name="sex">Male.</label>
+                              						<label class="radio-inline"><input type="radio" name="sex">Female.</label>
+                               						<span class="help-block">Ensure, You Choose Correct Profession...</span>
+                           								<div>  <label for="occupation">Profession:</label>
+                                        					<select class="form-control input-sm" id="occupation">
+                                             					<option >Student</option>
+                                             					<option>Professor</option>
+                                             					<option>Librarian</option>
+                                        					</select>
+  		                            					</div>   
+                                            <label for="inputfile">Upload Profile Picture</label>
+                                           <input type="file" id="inputfile"> 
+                                           <p class="help-block">The Profile Picture help people to identify you.</p>       
+                         						</div role="Form group">
+      										  </div role="modal-dialog">
+                            <!--Closing Of Sign Up Modal Page -->
+    												<div class="modal-footer">
+    																<button type="submit" class="btn btn-default">Submit</button>
+        															<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      												</div role="modal-footer">
+    									</div role="modal content">
+  									</div role="modal-dialog"> 
+								</div role="dialog of signup">                                              <!--Closing of sign up modal --> 
+  						        
+
+  						        <!--This is for the comments -->
+                             <div class="container-fluid" style=" background-color: #eeefff; margin-top: -10px;">
+                                    <div style="background-color: #ffffff">
+                                      <h1 class="text-center" style="padding-top: 7%; padding-bottom: 6%; font-weight: 800; color: #719790;"> Feedback! </h1>
+                                      <p class="text-center" style="margin-top: -6%; color: #002d30; font-family: sans-serif;" ><b>The Best Feedback(s) are included here only.</b></p>
+                                      <hr style="border: 1px solid #b4823a;" width="30%" />
+                                      <hr style="border: 1px solid #e97600; margin-top: -15px;" width="35%" />
+							                                <div role="Chief Comment" class="feeder_detail" style="background-color: #fdfff8">      <!--The Chief Comment -->
+							                                  <img src="reviews/phato.jpg" class="img-thumbnail img-responsive" id="best-comment-dp" width="400" height="400" alt="Rated Comment" >
+							                                  <div style="border-bottom: 1px solid #85978c;">
+							                                     <h3 class="sender">Zahid Khan </h3>
+							                                     <p class="profession">Bachelor Of Computer Applications. </p>
+							                                   </div>
+								 		                        <h1 class="text-center" id="chief-comment"><img src="others/quote_sign_left.png" alt=""> The E-Library won't help the
+                                                       students only - their is a provision for
+                                                       the faculty to take benefit by it. <img src="others/quote_sign_right.png" alt="">
+                                                    </h1>
+                                             </div>
+                                        <div class="alert alert-warning text-center">
+                                              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                                <strong>Attention!</strong> Once the feedback are approved only then it appear in the feedback box and can't be undone.
+                                        </div>
+                                      </div> 
+                                            <div role="Sub-Comments" style="padding-top: 8%; ">
+                                                    <div class="col-lg-3 feedback_reply">
+                                                         <div class="feeder_detail">  
+                                                            <img src="reviews/sub1.jpg" class="img-responsive img-middle" width="300" alt="Azim">
+                                                            <h3 class="sender" > Azim Ahmad </h3> 
+                                                            <p class="profession">Bachelors in CS</p>
+                                                            <hr/>
+                                                            <p class="text-center comment"><img src="others/quote_sign_left.png" alt=""> This is truly a great work done with high perfection and true determination"<img src="others/quote_sign_right.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-lg-offset-1 feedback_reply">
+                                                         <div class="feeder_detail">  
+                                                         	 <img src="reviews/sub2.jpg" class="img-responsive img-middle" width="410" alt="Ahtishaam">
+                                                            <h3 class="sender"> Ahtishaam Chasti</h3>
+                                                            <p class="profession">Computer Science</p>
+                                                            <hr/>
+                                                            <p class="text-center comment"><img src="others/quote_sign_left.png" alt="">   I hope it works and helps the aspirants of the College. There should be some mechanism available for the outside of the college students to get the<img src="others/quote_sign_right.png" alt=""> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-lg-offset-1 feedback_reply">
+                                                         <div class="feeder_detail">  
+                                                            <img src="reviews/sub3.jpg" class="img-responsive img-middle" width="300" alt="Fayiz"> 
+                                                            <h3 class="sender" >Fayiz Qadri </h3>
+                                                            <p class="profession">Computer Applications.</p>
+                                                            <hr/>
+                                                            <p class="text-center comment"><img src="others/quote_sign_left.png" alt="">I also worked on the project <img src="others/quote_sign_right.png" alt=""></p>
+                                                        </div>                                                       
+                                                    </div>
+                                           </div>
+                                           <ul class="pagination pager col-sm-12 hidden-xs" style="padding-left: 35%" >
+                                                      <li class="previous"><a href="#">Previous</a></li>
+                                                      <li class="active"><a href="#">1</a></li>
+                                                      <li><a href="#">2</a></li>
+                                                      <li><a href="#">3</a></li>
+                                                      <li><a href="#">4</a></li>
+                                                      <li><a href="#">5</a></li>
+                                                      <li><a href="#">Next</a></li>
+                                            </ul>
+								              </div>
+		<!--Starting Of Bookshelf -->
+  	    <div class="container-fluid jumbotron ebook text-center"  role="Categories to select from" id="categories" >
+  	           <h1 align="center">Category</h1>
+  	              <div class="alert visible-sm visible-xs" style=" color: #2F4F4F; background-color: #DEB887; -webkit-box-shadow: #C8C8C8  2px 1px 4px;">
+	                 <button type="button" class="close" data-dismiss="alert" style="background-color: white; " >&times;</button>
+	                 <h4 align="center" >Guidelines!</h4> Choose the stream you the Ebook is related to, then select the subject then download the intrested book of your favourite author.
+	              </div> 
+  	           <hr width="20%"/>										<!--horizontal row to distinguish the category and subitems -->
+  	         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  	              <a href="#cs" data-toggle="collapse" >
+                             	              <img src="icons/com.png" width="150rem" height="150rem" ><h3>Computer Science</h3>
+                                                     </a>
+  	       <div class="collapse in" role="Computer Science" id="cs">
+  	                                                                            <a href=" ../Ebooks/program.html"><span class="label label-default">New</span> Programming</a><br/> 
+  			       <a href="#">Operating System. </a><br/>
+  			       <a href="#">Computer Organization</a><br/>
+  			       <a href="#">Data Structure. </a><br/>
+  			       <a href="#">Web Designing</a><br/>
+  			       <a href="#">Data Communication. </a><br/>
+  			       <a href="#">Cloud Computing</a><br/>
+  			       <a href="#">Multimedia</a><br/>
+  			       <a href="#">Front End Design</a><br/>
+  			       <br/>
+  			</div> 
+  	         </div>
+  	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  	<a href="#business" data-toggle="collapse"  >  
+                              <img src="icons/bus.png" width="150rem" height="150rem" ><h3>Business </h3></a>
+  	<div  role="Business" id="business" class="collapse in">		  			 		<a href="#">Financial Management.</a><br/>
+	           <a href="#">Business Roles.</a><br/> 
+  	           <a href="#">Chartered Accountance</a><br/>
+  	           <a href="#">Marketing</a><br/>
+  	         <a href="#">Business Laws</a><br/>
+  	         <a href="#">Management Accounting</a><br/>
+  	         <a href="#">Business Laws</a><br/>
+  	<br/>
+  	</div role="business">
+  	</div>
+  				  			 	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  				  				    <a href="#med" data-toggle="collapse"  >
+                          <img src="icons/med.png" width="250rem" height="150rem" ><img\>
+                        <h3>Health Care</h3></a>
+  					  		 		<div  role="medicines" id="med" class="collapse in">
+	  				  			 		<a href="#">Anatomy.</a><br/>
+  				  			 			<a href="#">Physiology</a><br/>
+  				  			 			<a href="#">Biochemistry</a><br/>
+  				  			 			<a href="#">Pathology</a><br/>
+  				  			 			<a href="#">Micobiology</a><br/>
+  				  			 			<a href="#">Pharmacology</a><br/>
+  				  			 			<a href="#">Forensic Medicines and Medical Jurisprudence and Toxicology</a><br/>
+  				  			 			<a href="#">Ophthamology</a><br/>
+  				  			 			<br/>
+  				  			 		</div role="medicines">
+  				  			 	</div>
+                    <div class="clearfix visible-md visible-lg "></div>
+  				  			 		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  				  			 		     <a href="#elec" data-toggle="collapse" >
+  				  			 			    <img src="icons/elec.png" width="150rem" height="150rem" ><h3>Electronics &amp; Communication</h3></a>
+  				  			 			      <div role="Electronics" id="elec" class="collapse in">
+  				  			 				       <a href="#">Introduction To Thermodynamics.</a><br/>
+  				  			 				       <a href="#"> Digital Signals.</a><br/>
+  				  			 				       <a href="#">Data Communication</a><br/>
+  				  			 				       <a href="#">Intergal Transform and complex analysis</a><br/>
+  				  			 				       <br/>
+  				  			 			      </div>
+  					  				 </div>
+  				  					 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  					 			 			<a href="#Psy" data-toggle="collapse" > 
+                          <img src="icons/psy.png" width="150rem" height="150rem" ><h3>Psychology</h3> </a> 
+  				  			 				<div role="Psychology" id="Psy" class="collapse in">	  			 	
+	  				  			 	    	   		<a href="#">Personality</a><br/>
+	  				  			 	    	   		<a href="#">Social Physcology</a><br/>
+	  				  			 	    	   		<a href="#">Abnormal Psychology</a><br/>
+	  				  			 	    	   		<a href="#">Sensation and Perception</a><br/>
+	  				  			 	    	   		<a href="#">Bilogical Bases of Behaviour</a><br/>
+	  				  			 	    	   		<a href="#">Cognition</a><br/>
+	  				  			 	    	   		<a href="#">Animal Behaviour</a><br/>
+	  				  			 	    	   		<a href="#">Psycholinguistics</a><br/>
+	  				  			 	    	   		<br/>
+  				  			 				</div> 	
+  				  					 </div>	
+  				  					 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+  				  			 			<a href="#math" data-toggle="collapse" >
+  				  			 			 <img src="icons/math.png" width="150rem" height="150rem" ><h3>Mathematics</h3></a>
+  				  			 			<div role="mathematics" data-toggle="collapse" id="math" class="collapse in">
+  				  			 				<a href="#">Algebra</a><br/>
+  				  			 				<a href="#">Analysis.</a><br/>
+  				  			 				<a href="#">Logical Math.</a><br/>
+  				  			 				<a href="#">Sequences, Series </a> <br/>
+  				  			 				<a href="#">Number Theory</a> <br/>
+  				  			 				<a href="#">General Mathematics </a> <br/>
+  				  			 				<a href="#">Real Function</a> <br/>
+  				  			 				<a href="#">Potential Theory</a> <br/>
+  				  			 				<br/>
+  				  			 		    </div role="mathematics">	
+  				  			 		</div>
+                      <div class="clearfix visible-md visible-lg"></div>
+  				  			 		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 text-center">
+  				  			 			<a href="#history" data-toggle="collapse">
+  				  			 			  <img src="icons/history.png" width="150rem" height="150rem"><h3>History</h3></a>
+  				  			 			 <div role="History" id="history" class="collapse">
+  				  			 				<a href="#">US History</a><br/>
+  				  			 				<a href="#">The Road Of Revolution</a><br/>
+  				  			 				<a href="#">The Making Of A New Nation</a><br/>
+  				  			 				<a href="#">American Civil War</a><br/>
+  				  			 				<a href="#">Sectional Crisis</a>
+  				  			 				<br/>
+  				  			 			  </div>
+  					  				 </div>
+  				  					 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  					 			 			<a href="#Geography" data-toggle="collapse" > 
+  					 			 			 <img src="icons/geo.png" width="150rem" height="150rem"><h3>Geography</h3></a>
+  				  			 				<div role="Greography" id="Geography" class="collapse ">	  			 	
+	  				  			 	    	   <a href="#">Human Geography</a><br/>
+	  				  			 	    	   <a href="#">Physical Geography</a><br/>
+	  				  			 	    	   <a href="#"> Globalization</a><br/>
+	  				  			 	    	   <a href="#">GIS And Mapping</a><br/>
+	  				  			 	    	   <a href="#"> Geopolitics</a><br/>
+	  				  			 	    	   <br/>
+	  				  			 	    	 </div> 	
+  				  					 </div>	
+  				  					 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+  				  			 			<a href="#arabics" data-toggle="collapse" >
+  				  			 			  <img src="icons/arab.png" width="150rem" height="150rem" ><h3>Arabics</h3></a>
+  				  			 			<div role="Arabics" data-toggle="collapse" id="arabics" class="collapse">
+  				  			 				<a href="#">Arabic Language</a><br/>
+  				  			 				<a href="#">The Contemporary</a><br/>
+  				  			 				<a href="#">Religion Culture and Gender</a><br/>
+  				  			 				<a href="#">Islam and Modernity</a><br/>
+  				  			 				<a href="#">Dissertation.</a><br/>
+  				  			 				<br/>
+  				  			 		    </div role="closing of arabics">	
+  				  			 		</div> 
+						</div role="Jumbotron">    
+ 			 	</div role="Container">	        
+                                      <!--Closing of bookshelf -->
+                                      <!--Starting Of video -->
+                          <div class="container-fluid" style="background-color: background-color: rgb(3,42,127); margin-top: -30px;" >
+                                    <video controls="controls" height="100%" width="100%" poster="video.jpg" autobuffer title="Let's Make The College That We Are Committed to!" preload >
+                                          <source src="better_x264.mp4" type="video/mp4"/>
+                                      </video>         
+                           </div>                     
+ 			 					     <!--Closing of video here --> 
+										<!--Starting of Footer -->
+					<div class="container-fluid" style="background-color: rgb(32,42,52); color: #D8D8D8; text-decoration: none; ">
+		    				<footer>          <!--contains links and address -->
+				    		        <div role="Links" class="col-lg-3 visible-lg">
+                			             <h5><br/><b> Links </b></h5>
+	                        	    		<a href="#"> Home </a> <br/>
+    	                        	  		<a href="../library/index.html">Library</a> <br/>
+        	          		        	    <a href="#">E-Library </a><br/>
+            	      		            	<a href="#" data-toggle="modal" data-target="#feedback"> Feedback </a><br/>
+                	  		            	<a href="#" data-toggle="modal" data-target="#loginmodal"> Sign-In </a> <br/>
+                  		            </div>
+                      	 	        <div role="address of college">            <!--Closing Of Links -->
+                    				    <address style="white-space: pre-line; " class="visible-lg col-lg-4">
+                            			   <b title="Address Of Amar Singh College">Our Address</b>
+                                  		     Gogji Bagh,
+                                  		     Srinagar,  190002
+                                  		     Jammu And Kashmir.
+                 	          		     </address>         					
+                 	          		</div>  
+                   			        <div role="Links" class="col-lg-2 visible-lg visible-md col-md-6">
+                			             <h4><br/><b> Help Us</b></h4>
+	                        	    		<a href="#">Submit a bug. </a> <br/>
+    	                        	  		<a href="#">Make a suggestion.</a> <br/>
+            	      		            	<a href="#"> Feedback </a><br/>
+                  		  	        </div>
+                  		  	        <div role="principal" class="visible-lg visible-md col-md-6 col-lg-3" style="margin-bottom: 60px;">
+              						      <img src="others/principal.jpg" class="img-circle col-lg-6 col-md-4" alt="Principal" title="Principal of Amar Singh College."  width="104" height="100" />
+              						      <h4>About Principal.</h4>
+              						      <p style="font-size: 10px"> Prof.(Dr.) Aslam Baba is a Phdian in Physics with an experience of 12 year (2016) as a principal. </p>
+              				       </div role="Principal"> 
+              		       </footer>  
+              	    </div role="container of the links phatos of pricipal">	 
+              		<div class = "col-lg-12 visible-lg msgphone" style="background-color: white; padding-top: 1%; color: #0067a7;">		<!--Contact and email -->
+                 	    		<div class="col-lg-6 text-center" >
+                                           <img src="icons/msg.png" height= "70px;">
+                                           <a title="Email To Principal" href="mailto:principal@amarsinghcollege.ac.in">
+                 	           			       <p id="email">Principal@amarsinghcollege.ac.in </p></a>
+                        		</div>
+                 	    		<div class="col-lg-6">
+                           <img src="icons/phone.png" height="70px;" style="padding-left: 300px;">
+								            <p id="phone"><a title="Contact" style="padding-left: 290px; text-decoration: none;"> (0194) 2310227. </a> </p>                       <!--Phone Number Of ASC -->
+                				</div>
+                 	</div>   			
+                 	           <div class="col-lg-12"> 
+                                   <p class="text-center" style="word-spacing: 2px; color: #a0333a;"><b><big style="color: #ce3500; "> Disclaimer : </big> <a style="color: #65a2c3; "> Amar Singh College</a> has no Official Page On Facebook, Twitter Or Any Other Social Website.</b> </p>  
+                               </div>               
+                                 <div role="Icons of the websites" class="visible-lg icons" >
+                                   <img src="icons/dropbox.png" height="40px">                         
+                                   <img src="icons/facebook.png" height="45px">
+                                   <img src="icons/twitter.png" height="50px;">
+                                   <img src="icons/google+.png" height="45px;">
+                                   <img src="icons/linked.png" height="40px;">
+                              </div>
+              		                        <!--Terms & conditions, the button is available in small screens-->
+              		     <a button type="button" class="btn btn-block btn-info visible-xs" role="Navigation To Top" href="#top"> Go To Top.</a> 
+        	            <div role="Terms policies and conditions" >
+                           <ul class="list-inline col-lg-offset-4" id="conditions" >
+               	 	              <li><a href="../terms/terms.html"  >Terms &amp; Conditions</a> </li>
+                	              <li><a href="#" >Privacy Policy</a> </li>
+                	              <li><a href="#" >Contact Us</a></li>
+                	              
+                	        </ul>	
+                          <li class="col-xs-12 col-md-6 col-lg-4 " style="color: grey;">&#169;2016 Amar Singh College Srinagar.</li>
+                         </div role="terms">  
+                      
+                    
+
+                           <a href="#top" class="btn btn-dark btn-lg"><img src="icons/scroll1.png" id="scroll"></a>
+
+             			<!--Javascript -->     
+                        <!--Javascript --> 
+              <script src="../bootstrap 3/jquery/jquery.js"></script> 
+              <script src="../bootstrap 3/jquery/smoothscroll.js"></script> 
+              <script type="text/javascript" src="../bootstrap 3/js/bootstrap.min.js"></script>      
+            <script type="text/javascript">
+              $('a[href=#categories], a[href=#top]').click(function() {
+                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            if (target.length) {
+                                  $('html,body').animate({
+                                  scrollTop: target.offset().top
+                                  }, 1000);
+                                return false;
+                            }
+                      }
+                });
+    //#to-top button appears after scrolling
+                         var fixed = false;
+                         $(document).scroll(function() {
+                                  if ($(this).scrollTop() > 250) {
+                                       if (!fixed) {
+                                              fixed = true;
+                                                    $('#scroll').show("slow", function() {
+                                                        $('#scroll').css({
+                                                            position: 'fixed',
+                                                            display: 'block'
+                                                        });                                 //scroll 
+                                                   });               //scroll function
+                                          } //fixed
+                                } else {
+                                       if (fixed) {
+                                          fixed = false;
+                                              $('#scroll').hide("normal", function() {
+                                                  $('#scroll').css({
+                                                  display: 'none'
+                                                  });
+                                               });
+                                        }
+                                  }                         //else
+                                                  
+                               });                     //End Of scroll function
+
+                    
+
+
+                         //This is for labelling all the items with S.NO in the lists [Difficult To explain]
+                         $("document").ready( function() {
+                                                var turn=0, a = 1
+                                                var equ
+                                                 $("#categories div[class*='collapse'] ").each( function() {
+                                                            equ = "#categories div[class*='collapse']:eq(" + turn + ") a"
+                                                            $(equ).each( function() {
+                                                                     $(this).text( a++ + ". " + $(this).text() )        
+                                                            })           
+                                                            turn++,  a=1;
+                                                }); 
+                         }); //Labelling Function End Brace                         
+                         //This is For Adding Badge to the Categories So as TO get No of Subjects a catoragy has . .
+                         $("document").ready( function() {
+                                    var turn = 0
+                                    var equ = "#categories div[class*='collapse']:eq(" + turn + ") a"
+                                     $("#categories h3").each( function(){
+                                                var equ = "#categories div[class*='collapse']:eq(" + turn  + ") a"
+                                                   $(this).append("<span class='badge'>" + ' ' + $(equ).length + "</span>")                //working well to add badge
+                                                   turn++;
+                                     })
+                        }); 
+</script>
+
+
+</body>
+</html>

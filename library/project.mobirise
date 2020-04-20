@@ -1,0 +1,144 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Ubuntu",
+        "subtitleFont": "Lato",
+        "textFont": "Roboto",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.10.5",
+    "uniqCompNum": 19,
+    "versionPublish": "3.10.5",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Zahid%20Fayaz/Desktop/Library/lib2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#f1e5e5"
+            },
+            ".btn": {
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header1-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-size: 4.39rem; line-height: 1.1;\">Library Of</span><br> Amar Singh College.",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Amar Singh College &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Digitized Library &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-windows mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Digitized Library &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "H4": {
+              "text-align": "left",
+              "color": "#887878",
+              "font-size": "21px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "UL": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "content1-c",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<h4>&nbsp; &nbsp; &nbsp; <b>The college library is managed by a qualified Chief Librarian assisted by a good number of other library staff.&nbsp;</b></h4><p>The Reference Section of the Library is quite rich catering to the needs of the faculty and the students, especially the advanced learners. The Library has other facilities like reprography. Computer cataloging of the library is presently in process. The library works for about seven hours a day and the number of working days is about 300 / year. The upgrading and updating of the Library is done regularly as per the requirements of the curriculum and every effort is made to facilitate easy access of students to various sections of the Library. A separate room stands earmarked as Reading Room wherein a number of local, national, international Magazines / journals besides newspapers are available for the benefit of the students and the teaching / non- teaching staff. The Library also has a separate corner for displaying the college publications, write-ups of students in local / national dailies and also the college magazine. A separate Library Block is presently under construction and after its completion the existing library facility is expected to get a big boost by way of computerizing of the library, establishing an Audio / Video library, providing an internet facility and other such services</p><p><br></p><h4>Responsibilities of the Library Committee:</h4><ul><li>The committee formulates development plans and recommends facilities for implementation.</li><li>The committee gives guidelines for the procurement of costly books, internet journals, hardware and software necessary for the library.</li><li>The committee ensures the optimal use of library facility by staff and students.</li><li>The committee organizes book fairs as well as visits to national and international book fairs.</li><li>It ensures the availability of latest syllabi in the library.</li><li>It takes up remedial actions towards the grievances expressed by the students and staff.</li><li>Total area of the library (in Sq. Mts.): 1327.37 sq.mtr.</li><li>Total seating capacity: 200</li></ul><p><b>Working hours</b></p><p>On working days: 10:00 a.m. to 04:00 p.m.</p><ul><li>Before examination days: 10:00 a.m. to 04:00 p.m.</li><li>During examination days: 10:00 a.m. to 04:00 p.m.</li><li>During vacation: 10:00 a.m. to 04:00 p.m.</li></ul><p><br></p><ul><li>With the establishment of Study Centre, a separate library with carpet area 150.8 sq ft. and seating capacity of 50 students has been established. A Reading Room with the facility of Computers has been established to facilitate research for Postgraduate students. </li><li>A Resource Centre for staff and students to surf internet and download material as and when required. </li><li>A well-furnished cabin with individual reading carrels for Post graduate students/research scholars.</li><li> The Student Resource Centre provides Internet and subsidized Xerox facility to both the students and faculty</li><li>.The total carpet area of the Central Library (in sq. ft): 12100.55 sq.ft. Details on access to the library collection?</li><li> OPAC –</li><li> Available Electronic Resource Management package for e-journals –</li><li> Available Library Website –</li><li> Page available On College Website In-house/remote access to e-publications – </li><li>Yes Library automation –</li><li> Yes Total number of computers for public access – </li><li>25 Total number of printers for public access – </li><li>02 Internet bandwidth/speed mbps – </li><li>1mbps Institutional Repository – </li><li>Yes Content management system fore-learning – Yes </li></ul><p><br></p><h4>Chief Librarian&nbsp;</h4><h4>Ms. Masarat Ali Assistant Librarian –</h4><h4><span style=\"font-size: 1.5rem; line-height: 1.1; font-weight: normal;\">Mr. Iqbal Khan</span></h4>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-h",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-i",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

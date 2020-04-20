@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+            <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../e library/icons/write.png">
+              <link rel="stylesheet" href=" ..\bootstrap 3\fonts/font.css"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit =no" >   
+
+    <title>Articles</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href=" ../bootstrap 3/css/bootstrap.css">
+     <link rel="stylesheet" type="text/css" href="../E Library/css.css">
+  </head>
+    <style type="text/css">
+                     .author a {
+                            color: #4f81c5;
+                            text-decoration: none;
+                            cursor: pointer;
+                    }
+                     .author-detail{
+                            color: #547495;
+                            font-family: "BrowalliaUPC","Microsoft Yi Baiti";
+                            opacity: 0.5;
+                            margin-top: -10px;
+                            margin-bottom: -20px;
+                    }
+              <!--      .subject{
+                            color: #45abc9;
+                            padding-left:6%;
+                            font-size: 23px;
+                    }  -->
+                    .date{
+                            color: #6fc7b0;
+                            margin-top: -10px;
+                            font-family: "Calibri Light", "Mangal";
+                            
+                    }
+                   
+                    .comment{
+                            color: #363848;
+                            font-family: "Kalinga","Droid Sans","Berlin Sans FB","Batang", Helvetica, Arial, sans-serif;
+                            padding-left: 6%;
+                    }
+                    .post{
+                          border: 1px solid #9fa1b2;
+                          -webkit-border-radius: 10px;
+                          padding-top: 20px;
+                          padding-bottom: 0.5%;
+                           margin-top: 1%;
+                    }
+                       footer  a  {  color: #C5CFFF;    }             /* Links */
+                         footer a:hover { color: #FFFDDE;   }         /* Links color in the footer */
+                         .msgphone #email , .msgphone  #phone {
+                           -webkit-transition:  opacity 1s, color 2s, -webkit-box-shadow 1s, text-transform 1s, background-color 1s;               /* time it take to 
+                        get back to original shape*/
+                             margin-left: 0%;
+                             margin-top: 10px;
+                                 border: 10px solid transparent;
+                                 text-decoration: none;
+                                 color: white;
+                                 background-color: #09568d;
+                                 font-style: "Century Gothic"; 
+                                 letter-spacing: 1px;
+                          }
+                          .msgphone #phone a {   color: white;   }
+                          .msgphone #phone:hover a {  color: #09568d;      }
+                          .msgphone #email:hover, .msgphone #phone:hover {            /* This is for the email in the footer */
+                         -webkit-transition:  opacity 3s, color 2s, -webkit-box-shadow 4s, text-transform 3s, background-color 1s;
+                          text-transform: capitalize;
+                          background-color: white;
+                          border: 10px solid transparent;
+                          color: #474240;
+                          font-family: "Gadugi", Times, serif,;
+                          opacity: 0.8;
+                          -webkit-box-shadow: #144270 10px 10px 0px 0px;
+                       }
+                          a:link { text-decoration: none;   }                   /*Disables the underline */
+                       .logo {   opacity: 0.6; background-color: #f3f2e7; -webkit-box-shadow: #144270 1px 1px 1px; -webkit-transition: opacity 4s, -webkit-box-shadow 2s;  }
+                        .logo:hover { 
+                         opacity: 0.8; -webkit-box-shadow: #144270 5px 5px 5px; 
+                        } 
+                        .icons { 
+                              padding-left: 8%;
+                              margin-top: 13%;
+                              color: #0067a5;
+                              width: 450px;
+                              margin-left: 25%;
+                              -webkit-border-radius : 10px;
+                              margin-bottom: 20px;
+                              opacity: 0.8;
+                              cursor: not-allowed;
+                 }
+                .icons > .fa {  padding: 10px;  }
+            @media (min-width: 48em) {
+                 html { font-size: 18px; }
+            }
+
+            body {
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    color: #555;
+            }
+            h1, .h1,
+            h2, .h2,
+            h3, .h3,
+            h4, .h4,    
+            h5, .h5,
+            h6, .h6 {
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-weight: normal;
+            }
+            .blog-masthead {
+                    margin-bottom: 3rem;
+                    background-color: #428bca;
+                    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+                    box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+            }
+            .logged-info {
+                    margin-top: -3%;
+                    text-align: right;
+                    font-family: "Consolas";
+            }
+
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+}
+.blog-title {
+  margin-bottom: 0;
+  font-family: "Harrington","FlemishScript BT","Bookman Old Style";
+  font-size: 80px;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+          .post-btn {
+                  padding-left: 10%;
+                  padding-right: 10%;
+                  margin-top: 1%;
+          }
+
+#optional{
+			font-family: "Browallia New";
+			font-size: 20px;
+
+}
+#inputfile {
+			border: 1px solid #dbbebc;
+			-webkit-border-radius: 5px;
+			padding-right: 72%;
+}
+ #conditions a {												/*below the footer */
+                    	    color: white;
+                    	    text-decoration: none;
+                        }
+#conditions a { color: #784389; }
+#conditions a:hover { color: #724699; font-weight: 800; }
+.upload-img {
+				margin-left: 20%;
+				margin-bottom: 20px;
+}
+#like {		color: #5490c4;           }
+#comment {    color: #4f81c5          }
+#errmsg {
+
+            display: none;
+            margin-bottom: 1.3%;
+            margin-top: 1%;
+}
+              </style>
+                           <!--Javascript is not running or not supported -->   
+                 <noscript>
+                        JavaScript is required to work properly. Plugin JS in your system to get ahead."
+                  </noscript>
+                  
+<body id="top"> 
+     <nav class=" container-fluid blog-masthead" style="background-color:  #428bca; "  >            
+                     <ul class="nav  nav-tabs" >
+                        <li class="nav-link navbar-brand" ><a  href="#">Amar Singh College</a> </li>
+                        <li class="visible-xs" style="float: right;"><a href="#" type="button" data-toggle="collapse" data-target="#mobile-nav" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-align-justify"></span></a> </li>
+                         <li class="nav-link hidden-xs"><a href="#"> Library </a></li>
+                         <li class="nav-link hidden-xs"><a href="../E Library/Elib.html"> E-Library</a></li> 
+                           <li class="nav-link hidden-xs active"><a href="#">Articles.</a></li>    
+                         <!--This is for the Advanced settings -->
+                          <li class="nav-link navbar-right hidden-xs" ><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span> Advanced </a>
+                          <ul class="dropdown-menu" >
+                            <li class="dropdown-header" style="font-size: 15px; "  align="center">Accounts Management.</li>
+                            <li><a data-toggle="modal" data-target="#loginmodal"><span class="glyphicon glyphicon-log-in"></span> Login In</a> </li>
+                            <li><a href="#" data-toggle="modal" data-target="#signupmodal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li class="dropdown-header" style="font-size: 15px;"  align="center">User Response.</li>
+                            <li><a href="#" data-toggle="modal" data-target="#feedback"><span class="glyphicon glyphicon-tag"></span> Feedback</a> </li>
+                            <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> Rate College.</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Message To Principal.</a></li>
+                          </ul> 
+                          </li> 
+                     </ul>     
+               <!--This is the settings in the small mobile navigation bar -->
+               <div class="hidden-lg hidden-md hidden-sm collapse " id="mobile-nav">
+                  <ul class="nav">
+                      <li class="nav-link" ><a href="#" ><span class="glyphicon glyphicon-home"></span> Home </a></li>
+                      <li class="nav-link" ><a href="#" ><span class="glyphicon glyphicon-book"></span> Library </a></li>
+                      <li class="nav-link" ><a href="../article/article.html">Articles.</a></li>    
+                      <li class="nav-link" ><a data-toggle="modal" data-target="#loginmodal"><span class="glyphicon glyphicon-log-in"></span> Sign In</a> </li>
+                      <li class="nav-link" ><a href="#" data-toggle="modal" data-target="#feedback"><span class="glyphicon glyphicon-tag"></span> Feedback</a> </li>
+                  </ul>
+               </div>
+            </nav> 
+
+    <div class="blog-header">
+      <div class="container">
+        <h1 class="blog-title">Article Blog</h1>
+        <p class="lead blog-description">Post Articles &amp; Do A Favour . .</p>
+                  <label >Write Below Your Article.</label>
+                  <textarea class="form-control" rows="8" id="box" placeholder="What is in your mind?" ></textarea>
+                  <span id="errmsg"></span>
+                  
+                  <label for="inputfile" id="optional">Upload Photos (Optional). </label>
+                  <input type="file" id="inputfile"> 
+                
+                  <div class="well well-sm" style="margin-top: 1%;">
+                      <strong>By Post!</strong> You are accepting all the <a>Terms</a> and <a>Conditions</a>.
+                  </div>
+
+                   <button type="button" id="SubArt" class="btn btn-info post-btn" >Post</button>
+                           <p class="logged-info"> By <a style="text-decoration: none;"> Zahid Khan.</a> </p>
+                           <div id="errorMsg" >  </div>
+      </div>
+    </div>
+    <hr/>
+                          <!--Starting of the Posts -->                
+                  <div id="written"></div>
+                 <div class="container post" >
+                            <h2 class="author"><a>Zahid Khan</a></h2>
+                            <p class="author-detail">Author is a III<sup>rd</sup> Year Student in Amar Singh College. </p>
+                                    <hr>
+                            <p class="comment">There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
+
+    There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
+<br><br>
+    <i>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</i>
+                   <div id="see3" class="comment collapse">
+                  Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.
+                   </div>
+                  <br>
+                         <h6 class="date" align="center">Jan/01/2016, 23:10:13 Via Mobile.</h6>
+                <div class="btn-group btn-group-justified">
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default " data-toggle="collapse" data-target="#see3">See More </button>
+                  </div>
+                  <div class="btn-group" >
+                      <button type="button" class="btn btn-default"  ><i class="glyphicon glyphicon-thumbs-up"></i> <span class="label label-primary">10</span></button>
+                  </div>
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default"> <i class="glyphicon glyphicon-comment" ></i> <span class="label label-info">31</span></button>
+                  </div>
+                </div>   
+
+
+
+                 </p>           
+                </div>
+
+             
+                    <div class="container post" >
+                            <h2 class="author"><a>Zahid Khan</a></h2>
+                            <p class="author-detail">Author is a III<sup>rd</sup> Year Student in Amar Singh College. </p>
+                                    <hr>
+                            <p class="comment">This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported. </p>
+                            <div id="see1" class="container comment collapse" >
+                                     Lorem ipsum dolor text....
+                              </div>
+                    <img class="img-thumbnail upload-img"  src="phato.jpg"> 
+                      <h6 class="date" align="center">Jan/01/2016, 23:10:13 Via Mobile.</h6>
+                <div class="btn-group btn-group-justified">
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default " data-toggle="collapse" data-target="#see1">See More </button>
+                  </div>
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-thumbs-up"></i> <span class="label label-primary">10</span></button>
+                  </div>
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default"> <i class="glyphicon glyphicon-comment" ></i> <span class="label label-info">31</span></button>
+                  </div>
+                </div> 
+                </div>
+            <ul class="pager">
+              <li><a href="#">.Older</a></li>
+              <li ><a href="#">Newer.</a></li>
+             </ul>
+
+                                  <!--Starting of Footer -->
+<div class="container-fluid" style="background-color: rgb(32,42,52); color: #D8D8D8; text-decoration: none; ">
+                <footer>          <!--contains links and address -->
+                        <div role="Links" class="col-lg-3 visible-lg">
+                                   <h5><br/><b> Links </b></h5>
+                                    <a href="#"> Home </a> <br/>
+                                      <a href="#">Library</a> <br/>
+                                      <a href="#">E-Library </a><br/>
+                                      <a href="#" data-toggle="modal" data-target="#feedback"> Feedback </a><br/>
+                                      <a href="#" data-toggle="modal" data-target="#loginmodal"> Sign-In </a> <br/>
+                                  </div>
+                                  <div role="address of college">            <!--Closing Of Links -->
+                                <address style="white-space: pre-line; " class="visible-lg col-lg-4">
+                                     <b title="Address Of Amar Singh College">Our Address</b>
+                                           Gogji Bagh,
+                                           Srinagar,  190002
+                                           Jammu And Kashmir.
+                                     </address>                   
+                                </div>  
+                                <div role="Links" class="col-lg-2 visible-lg visible-md col-md-6">
+                                   <h4><br/><b> Help Us</b></h4>
+                                    <a href="#">Submit a bug. </a> <br/>
+                                      <a href="#">Make a suggestion.</a> <br/>
+                                      <a href="#"> Feedback </a><br/>
+                                  </div>
+                                  <div role="principal" class="visible-lg visible-md col-md-6 col-lg-3" style="margin-bottom: 60px;">
+                                <img src="../E Library/others/principal.jpg" class="img-circle col-lg-6 col-md-4" alt="Principal" title="Principal of Amar Singh College."  width="104" height="100" />
+                                <h4>About Principal.</h4>
+                                <p style="font-size: 10px"> Prof.(Dr.) Aslam Baba is a Phdian in Physics with an experience of 12 year (2016) as a principal. </p>
+                             </div role="Principal"> 
+                         </footer>  
+                    </div role="container of the links phatos of pricipal">  
+                  <div class = "col-lg-12 visible-lg msgphone" style="background-color: white; padding-top: 1%; color: #0067a7;">   <!--Contact and email -->
+                          <div class="col-lg-6 text-center" >
+                                           <img src="../E Library/icons/msg.png" height= "70px;">
+                                           <a title="Email To Principal" href="mailto:principal@amarsinghcollege.ac.in">
+                                         <p id="email">Principal@amarsinghcollege.ac.in </p></a>
+                            </div>
+                          <div class="col-lg-6">
+                           <img src="../E Library/icons/phone.png" height="70px;" style="padding-left: 300px;">
+                            <p id="phone"><a title="Contact" style="padding-left: 290px; text-decoration: none;"> (0194) 2310227. </a> </p>                       <!--Phone Number Of ASC -->
+                        </div>
+                  </div>        
+                             <div class="col-lg-12"> 
+                                   <p class="text-center" style="word-spacing: 2px; color: #a0333a;"><b><big style="color: #ce3500; "> Disclaimer : </big> <a style="color: #65a2c3; "> Amar Singh College</a> has no Official Page On Facebook, Twitter Or Any Other Social Website.</b> </p>  
+                               </div>               
+                                 <div role="Icons of the websites" class="visible-lg icons" >
+                                   <img src="../E Library/icons/dropbox.png" height="40px">                         
+                                   <img src="../E Library/icons/facebook.png" height="45px">
+                                   <img src="../E Library/icons/twitter.png" height="50px;">
+                                   <img src="../E Library/icons/google+.png" height="45px;">
+                                   <img src="../E Library/icons/linked.png" height="40px;">
+                              </div>
+                                          <!--Terms & conditions, the button is available in small screens-->
+                       <a button type="button" class="btn btn-block btn-info visible-xs" role="Navigation To Top" href="#top"> Go To Top.</a> 
+                      <div role="Terms policies and conditions" >
+                           <ul class="list-inline col-lg-offset-4" id="conditions" >
+                                <li><a href="../terms/terms.html"  >Terms &amp; Conditions</a> </li>
+                                <li><a href="#" >Privacy Policy</a> </li>
+                                <li><a href="#" >Contact Us</a></li>
+                                
+                          </ul> 
+                      </div> 
+                           											<!--Closing Button in footer -->
+      		<!-- Modal For the Feedback . . -->
+		<div id="feedback" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+    			<!-- Modal content-->
+    		              	<div class="modal-content">
+      	<div class="modal-header">
+        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        						<h4 class="modal-title">Library</h4>
+      					</div>
+      				<div class="modal-body">
+        		<p>Feedback.</p>
+        		<label for="usr">Name:</label>
+        		<input type="text" class="form-control" id="usr">
+        		<label for="comment">Comment:</label>
+        		<textarea class="form-control" rows="5" id="comment"></textarea>
+      	</div>
+      			              <div class="modal-footer">
+        					<div class="help-block">By submitting you are agree all the <a href="../terms/terms.html">Terms And Conditions...</a> </div>
+         						<button type="submit" class="btn btn-default" >Submit</button>
+        						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      					</div>
+    				</div>
+  			</div>	
+		</div>
+		           <!-- Modal For the login page in the Desktop View-->
+								<div id="loginmodal" class="modal fade" role="dialog">			<!--CHANGE ITS NAME FROM MYMODAL1 TO MYMODAL -->
+  									<div class="modal-dialog">								<!--For only some portioned rectangle -->
+    								<!-- Modal content-->
+	    										<div class="modal-content" style="opacity: 0.9">
+      			<div class="modal-header"> 									<!--Heading and the closing button -->
+        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+        		<h3 class="modal-title">Log In To The Amar Singh College.</h3>
+      		</div>
+      		<div class="modal-body">
+        											   <form role="form">
+  		<div class="form-group">
+    			<label for="email" ><span class="glyphicon glyphicon-user"></span> Email address</label>
+    			<input type="email"  placeholder="Enter Email Address." class="form-control" id="email">
+  		</div>
+  		<div class="form-group">
+    		          <label for="pwd">Password:</label>
+    		<input type="password" minlength="8" autocomplete="off" class="form-control" id="pwd" placeholder="Enter Password.">
+  		</div>
+  		<div class="checkbox"> <label><input type="checkbox"> Remember me</label> </div>
+  		<button type="submit" class="btn btn-default">Submit</button>
+		</form>	
+      		</div>
+
+                                                                        <!--Closing Button in footer -->
+      														<div class="modal-footer">
+      														<a href="#"  data-dismiss="modal" data-toggle="modal" data-target="#signupmodal">Not a member? <a href="#">Sign Up</a> </a>
+          													<p align="left">Forgot <a href="#">Password?</a></p>
+        														<button type="button" class="btn btn-default" data-dismiss="modal">Cancel <span class="glyphicon glyphicon-remove"></span></button>
+</div>
+</div>
+</div role="modal dialog">
+							   </div role="model-content"> 
+							         <!--Closing Of Log in Modal Page -- >	
+										<!--Starting of MODAL FOR THE SIGN UP PAGE -->
+								<div id="signupmodal" class="modal fade" role="dialog of sign up">
+  									<div class="modal-dialog">
+    										<!-- Modal content-->
+    								  	 <div class="modal-content">
+      										   <div class="modal-header">
+        										   <button type="button" class="close" data-dismiss="modal">&times;</button>
+        										   <h4 class="modal-title">Sign Up</h4>
+      										   </div>
+      									    <div class="modal-body">
+                        						<div class="form-group">
+                              						<label for="usr">Name:</label>
+                              						<input type="text" class="form-control input-lg" id="username">
+                              						<label for="passwordd">Password:</label>
+                              						<input type="password" class="form-control input-sm" id="pwd">
+                              						<label for="passwordd">Retype Password:</label>
+                              						<input type="password" class="form-control input-sm" id="pwd2">
+                              						<label for="phone">Phone Number:</label>
+                              						<input type="phone" class="form-control" id="phone">
+                              						<label for="sex">Sex:</label>
+                              						<label class="radio-inline"><input type="radio" name="sex">Male.</label>
+                              						<label class="radio-inline"><input type="radio" name="sex">Female.</label>
+                               						<span class="help-block">Ensure, You Choose Correct Profession...</span>
+                           								<div>  <label for="occupation">Profession:</label>
+                                        					<select class="form-control input-sm" id="occupation">
+                                             					<option >Student</option>
+                                             					<option>Professor</option>
+                                             					<option>Librarian</option>
+                                        					</select>
+  		                            					</div>   
+                                            <label for="inputfile">Upload Profile Picture</label>
+                                           <input type="file" id="inputfile"> 
+                                           <p class="help-block">The Profile Picture help people to identify you.</p>       
+                         						</div role="Form group">
+      										  </div role="modal-dialog">
+                            <!--Closing Of Sign Up Modal Page -->
+							         <!--Closing Of Log in Modal Page -- >	
+							</div> </div> </div> 
+
+	<a href="#top" class="btn btn-dark btn-lg"><img src="../E Library/icons/scroll1.png" id="scroll"></a>
+
+                        <!--Javascript --> 
+              <script src="../bootstrap 3/jquery/jquery.js"></script> 
+              <script src="../bootstrap 3/jquery/smoothscroll.js"></script> 
+              <script type="text/javascript" src="../bootstrap 3/js/bootstrap.min.js"></script>   
+              <script type="text/javascript">
+            /*      $(' a[href=#top]').click(function() {
+                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            if (target.length) {
+                                  $('html,body').animate({
+                                  scrollTop: target.offset().top
+                                  }, 1000);
+                                return false;
+                            }
+                      }
+                });   
+
+                          //#to-top button appears after scrolling
+                         $(document).scroll(function() {
+                                  if ($("#scroll").scrollTop() > 250) {
+                                                    $('#scroll').show("slow", function() {
+                                                        $('#scroll').css({
+                                                            position: 'fixed',
+                                                            display: 'block'
+                                                        });                                 //scroll 
+                                                   });               //scroll function
+                                          } //fixed
+                                else {
+                                              $('#scroll').hide("normal", function() {
+                                                  $('#scroll').css({
+                                                  display: 'none'
+                                                  });
+                                               }
+                                        }
+            }); //End Of scroll function      */
+                         //Function For article post . . .
+                         $("document").ready( function() { 
+                                $("#SubArt").click( function() {
+                                    $("#box").val( $.trim($("#box").val() ) )                               //Just removing whitespace from front and end. .
+                                    $("#box").val( $("#box").val().replace(/[^a-z 0-9 /.@! ' "]/gi, "") )               //Puts a creamy obstacle layer against SQL Injection . .. 
+                                     if( $("#box").val().length == 0 ) {
+                                                $("#errorMsg").addClass("alert alert-warning container");
+                                                $("#errorMsg").text("Type Your Article First And Then Post . [Empty Box Error]");
+                                                $("#errorMsg").show("slow", function(){
+                                                            $("#errorMsg").css("margin-top","2%")
+                                                });
+                                                $("#box").focus();
+                                     }
+                                    else {                                                                                  //If satifies the conditions. . 
+                                                            $("#errorMsg").hide("slow");                //hides the error msg at the beginning of start. . .
+                                                            postArticle();                                              //Focuses User To the Article . . . .
+                                            }  
+                                });    //SubArt Ending
+                                  $("#errorMsg").hide();                //Hides the error msg by default . .
+                         })//Ending of ready function for articles
+
+                         //This function is used to post article on the Feed vertified and tested as on 6/25/2017 . . .
+                         var total = 0;
+                         function postArticle() {
+                                    document.cookie = "username : Zahid; path=/" ;
+                                    var authorName = decodeURIComponent( document.cookie )
+                                    var equ = "written" + total
+                                    $("#written").prepend("<div id='" + equ + "'></div>")
+                                    equ = "#written" + total
+                                    $('html , body').animate( { scrollTop : $(equ).offset().top} , 2000 )
+                                    $(equ).addClass("container post")
+                                    $(equ).append("<h2 class='author'><a>" + authorName + "</a></h2> ")
+                                    $(equ).append("<p class='author-detail'>Author is a III<sup>rd</sup> Year Student in Amar Singh College. </p> <hr> ")
+                                    $(equ).append("<p class='comment'>"  + $("#box").val() + "</p> <br/>")
+                                    var date = new Date()
+                                    $(equ).append("<h6 class='date' align='center'>" + date.getDate()+ '/' + date.getMonth() + '/' + date.getFullYear()  +      "      " + ( date.getHours()>12 ? date.getHours() -12 : date.getHours() )   + ':' + date.getMinutes() + ':' +  date.getSeconds() + " Via " +  ( window.innerWidth<=800 && window.innerHeight<=600 ? "Mobile" : "Desktop.") + ".</h6>")
+                                    $("#box").val('')
+                                    $(equ).append('<div class="btn-group btn-group-justified">' +  '\n' + '<div class="btn-group"> <button type="button" class="btn btn-default " data-toggle="collapse" data-target="#see3">See More </button> </div>' + '<div class="btn-group" ><button type="button" class="btn btn-default"  ><i class="glyphicon glyphicon-thumbs-up"></i> <span class="label label-primary">10</span></button></div>' + '\n' + '<div class="btn-group"><button type="button" class="btn btn-default"> <i class="glyphicon glyphicon-comment" ></i> <span class="label label-info">31</span></button></div>')
+                                    total++;          
+                         }
+                         //End of PostArticle() Function . . .
+
+
+                
+              </script>
+  </body>
+</html>
